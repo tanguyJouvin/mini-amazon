@@ -7,3 +7,5 @@ export const removeArticle = id => ({
   payload: id
 });
 
+//qd on va faire props.dispatch(removeArticle(12))<--indice dans le tableau ou
+//props.dispatch(removeArticle({name: 'objet1', price: 20.99})) -->{name: 'objet1', price: 20.99} = payload
