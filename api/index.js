@@ -15,9 +15,9 @@ api.use((req, res, next) => {
 
 const connection = mysql.createConnection({
   host: "localhost",
-  user: "root",
+  user: "*******",
   database: "amazon",
-  password: "soleil"
+  password: "***********"
 });
 
 connection.connect((err) => {
